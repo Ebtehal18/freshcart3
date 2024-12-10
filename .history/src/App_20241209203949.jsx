@@ -36,8 +36,20 @@ const queryClient = new QueryClient();
 let routes = createBrowserRouter([
   {
     path: "",element: <Layout />,children: [
-      {index: true,element: (<ProtectRoutes><Home /></ProtectRoutes>)},
-      {path: "products",element: (<ProtectRoutes><Products /></ProtectRoutes>)},
+      {index: true,element: (
+          <ProtectRoutes>
+            <Home />
+          </ProtectRoutes>
+        ),
+      },
+      {
+        path: "products",
+        element: (
+          <ProtectRoutes>
+            <Products />
+          </ProtectRoutes>
+        ),
+      },
       {
         path: "cart",
         element: (
@@ -50,7 +62,7 @@ let routes = createBrowserRouter([
         path: "brands",
         element: (
           <ProtectRoutes>
-            <Brands />
+            <Brands />{" "}
           </ProtectRoutes>
         ),
       },

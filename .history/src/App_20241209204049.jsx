@@ -50,7 +50,7 @@ let routes = createBrowserRouter([
         path: "brands",
         element: (
           <ProtectRoutes>
-            <Brands />
+            <Brands />{" "}
           </ProtectRoutes>
         ),
       },
