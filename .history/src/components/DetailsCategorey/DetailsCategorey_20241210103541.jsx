@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import style from './DetailsCategorey.module.css'
 import { Link, useParams } from 'react-router-dom'
-import UseProducts from '../../hooks/UseProducts'
+import UseProducts from '../../hooks/'
 import Loading from '../Loading/Loading'
 import Card from '../Card/Card'
 

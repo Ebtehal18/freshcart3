@@ -95,6 +95,7 @@ let routes = createBrowserRouter([
         ),
       },
       { path: "forgetpassword", element: <ForgetPassword /> },
+
       { path: "verifyrestcode", element: <VerifyRestCode /> },
       { path: "resetpassword", element: <RestPassword /> },
       {
