@@ -1,7 +1,7 @@
 import React, { useContext, useEffect, useState } from 'react'
 import style from './RecentProuducts.module.css'
 import Loading from '../Loading/Loading'
-import UseProducts from '../../hooks/UseProducts'
+import UseProducts from '../../hooks/useProducts'
 import Card from '../Card/Card'
 
 

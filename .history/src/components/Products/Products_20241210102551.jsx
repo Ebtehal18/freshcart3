@@ -4,7 +4,7 @@ import axios from 'axios'
 import { useQuery } from '@tanstack/react-query'
 import Loading from '../Loading/Loading'
 import { Link } from 'react-router-dom'
-import UseProducts from '../../hooks/UseProducts'
+import UseProducts from '../../hooks/'
 import Card from '../Card/Card'
 import { Helmet } from 'react-helmet'
 
