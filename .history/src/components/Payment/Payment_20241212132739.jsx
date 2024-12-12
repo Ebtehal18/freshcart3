@@ -51,7 +51,7 @@ function handelOnlinePayment(values){
         shippingAddress:values
       }
       setLoadingonline(true)
-  axios.post(`https://ecommerce.routemisr.com/api/v1/orders/checkout-session/${cartId}?url=https://ebtehal18.github.io`,apiObj,{
+  axios.post(`https://ecommerce.routemisr.com/api/v1/orders/checkout-session/${cartId}?url=`,apiObj,{
     headers:token
   })
   .then(response=>{
